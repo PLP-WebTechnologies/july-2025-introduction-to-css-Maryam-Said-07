@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'play fair display', sans-serif;
+  background-color: #ea8f8f;
+} 
+h1 {
+  font-size: 2.5em;
+  color: #03151a;
+  text-align: center;
+  margin-top: 20px;
+}
+h2 {
+  font-size: 2em;
+  color: #725d60;
+  text-align: left;
+  margin-top: 15px;
+    padding-left: 20px;
+}
+p {
+  font-size: 1.4em;
+  color: #03151a;
+  line-height: 1.6;
+  margin: 10px 0;
+    padding: 0 20px;
+    border: 2px dotted #03151a;
+}
