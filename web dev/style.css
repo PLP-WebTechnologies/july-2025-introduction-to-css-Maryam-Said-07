@@ -1,0 +1,103 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(120deg, #f8fafc 0%, #e0e7ff 100%);
+    color: #22223b;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+/* Container for content */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 6px 32px rgba(60, 72, 88, 0.12);
+    padding: 40px 32px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #3a3a5a;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 1.7rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+/* Links */
+a {
+    color: #6366f1;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #4338ca;
+    text-decoration: underline;
+}
+
+/* Buttons */
+button, .btn {
+    background: linear-gradient(90deg, #6366f1 0%, #60a5fa 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 28px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(99, 102, 241, 0.08);
+}
+
+button:hover, .btn:hover {
+    background: linear-gradient(90deg, #4338ca 0%, #2563eb 100%);
+}
+
+/* Lists */
+ul {
+    margin-left: 24px;
+    margin-bottom: 18px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 18px 8px;
+    }
+    body {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+}

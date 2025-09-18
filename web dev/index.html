@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Structured Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Structured Web Page</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#form">Contact Form</a>
+        <a href="#faq">FAQ</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <p>This is a sample web page with structured sections and interactive elements.</p>
+            <button id="toggle-bg-btn">Show More</button>
+            <div>
+                <p>Here are more details about this web page. It demonstrates HTML structure, forms, and interactivity using JavaScript.</p>
+            </div>
+        </section>
+        <section id="form">
+            <h2>Contact Form</h2>
+            <form id="custom-form">
+                <label>Name: <input type="text" id="name-input" name="name" required></label>
+                <span id="char-count">Characters: 0</span><br><br>
+                <label>Email: <input type="email" id="email-input" name="email" required></label><br><br>
+                <label>Message:<br>
+                    <textarea name="message" rows="4" required></textarea>
+                </label><br><br>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="error-msg"></div>
+        </section>
+        <section id="faq">
+            <h2>FAQ</h2>
+            <button id="faq-toggle-btn">Show FAQ</button>
+            <ul id="faq-list" style="display:none;">
+                <li><strong>Q:</strong> What is this page?<br><strong>A:</strong> A demo of HTML structure and interactivity.</li>
+                <li><strong>Q:</strong> How does the form work?<br><strong>A:</strong> It displays a message when submitted.</li>
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
